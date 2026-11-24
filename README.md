@@ -12,6 +12,13 @@ Backtrack with a start index and remaining target. The whole semantics of "unlim
 
 **Complexity:** exponential in the worst case (output-bound), O(target/min) recursion depth.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
